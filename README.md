@@ -1,208 +1,174 @@
-# Retail Customer Behaviour Analysis
+Retail Customer Behaviour Analysis
 
-## Project Overview
+Project Overview
 
-Retail Customer Behaviour Analysis is a data analytics project designed to analyze customer shopping patterns, purchasing behavior, sales trends, and business insights using Python, SQL, and Power BI.
+This project analyzes retail customer behaviour to understand purchasing patterns, customer preferences, sales performance, and product/category trends.
 
-The project helps businesses understand customer preferences and improve decision-making through data visualization and analytical dashboards.
+The goal is to transform raw retail data into meaningful business insights that can help businesses understand their customers and make data-driven decisions.
 
 ---
 
-## Features
+## Objectives
 
-* Customer purchase trend analysis
-* Sales performance analysis
-* Category-wise shopping insights
-* Customer segmentation
-* Data visualization dashboards
-* SQL-based business queries
-* Interactive Power BI reports
+* Analyze customer purchasing behaviour
+* Understand sales and revenue trends
+* Identify popular product categories
+* Analyze customer segments and preferences
+* Find useful business patterns from the data
+* Build an interactive dashboard for decision-making
 
 ---
 
 ## Tech Stack
 
-* Python
+**Python**
+**Pandas**
+ **NumPy**
+ **Jupyter Notebook**
+ **SQL**
+ **Power BI**
+ **Data Visualization**
+
+---
+
+## Project Workflow
+
+```text
+Raw Dataset
+     ↓
+Data Cleaning & Preprocessing
+     ↓
+Exploratory Data Analysis
+     ↓
+SQL Analysis
+     ↓
+Customer & Sales Analysis
+     ↓
+Power BI Dashboard
+     ↓
+Business Insights
+```
+
+---
+
+## Python Analysis
+
+Python was used for data cleaning, preprocessing and exploratory data analysis.
+
+### Libraries Used
+
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* SQL
-* Power BI
-* Jupyter Notebook
+
+The analysis included:
+
+* Handling missing values
+* Checking duplicate records
+* Data type validation
+* Exploratory analysis
+* Customer behaviour analysis
+* Sales and category analysis
+* Data visualization
 
 ---
 
-## Folder Structure
+## SQL Analysis
 
-```bash
+SQL was used to answer business-related questions from the retail dataset.
+
+The analysis focused on:
+
+* Customer purchasing behaviour
+* Product/category performance
+* Sales trends
+* Customer segmentation
+* Aggregated business metrics
+* Identifying important patterns in customer transactions
+
+---
+
+## Power BI Dashboard
+
+An interactive Power BI dashboard was created to provide a visual overview of retail performance and customer behaviour.
+
+The dashboard helps analyze:
+
+* Sales performance
+* Customer behaviour
+* Product/category performance
+* Purchasing trends
+* Key business metrics
+
+---
+
+## Key Business Insights
+
+The project helps identify patterns such as:
+
+* Which product categories perform better
+* How customers behave across different segments
+* Which areas contribute more to sales
+* Purchasing trends within the retail dataset
+* Opportunities for improving customer engagement and business performance
+
+---
+
+## Project Structure
+
+```text
 Retail-Customer-Behaviour-Analysis/
 │
-├── data/
-│   ├── raw/
-│   │   └── customer_shopping_behavior.csv
-│   │
-│   └── processed/
+├── Dataset/
 │
-├── notebooks/
-│   └── Retail_Customer_behaviour_Analysis.ipynb
+├── Python/
+│   └── Retail_Customer_Analysis.ipynb
 │
-├── sql/
-│   └── Project.sql
+├── SQL/
+│   └── Retail_Customer_Analysis.sql
 │
-├── powerbi/
-│   └── PROJECTTTTTT.pbix
+├── PowerBI/
+│   └── Retail_Customer_Analysis.pbix
 │
-├── src/
-│   ├── data_cleaning.py
-│   ├── analysis.py
-│   └── visualization.py
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-├── LICENSE
-└── CONTRIBUTING.md
+└── README.md
 ```
 
 ---
 
-## Installation
+## How to Use
 
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/Retail-Customer-Behaviour-Analysis.git
-```
-
-### Move Into Project Directory
+### 1. Clone the repository
 
 ```bash
-cd Retail-Customer-Behaviour-Analysis
+git clone https://github.com/RuchikaSinha26/Retail-Customer-Behaviour-Analysis-.git
 ```
 
-### Install Dependencies
+### 2. Open the Python notebook
 
-```bash
-pip install -r requirements.txt
-```
+Open the `.ipynb` file using Jupyter Notebook or JupyterLab.
+
+### 3. Run the SQL analysis
+
+Open the SQL file using MySQL or another compatible SQL environment.
+
+### 4. Explore the Power BI dashboard
+
+Open the `.pbix` file using Microsoft Power BI Desktop.
 
 ---
 
-## Usage
+## Skills Demonstrated
 
-### Run Jupyter Notebook
+This project demonstrates practical experience with:
 
-```bash
-jupyter notebook
-```
-
-Open:
-
-```bash
-Retail_Customer_behaviour_Analysis.ipynb
-```
-
-### Run SQL Queries
-
-Execute the SQL script available inside:
-
-```bash
-sql/Project.sql
-```
-
-### Open Power BI Dashboard
-
-Open:
-
-```bash
-powerbi/PROJECTTTTTT.pbix
-```
-
-using Microsoft Power BI Desktop.
-
----
-
-## Key Insights
-
-* Identified high-performing product categories
-* Analyzed customer purchasing frequency
-* Found seasonal shopping trends
-* Generated business recommendations using analytics
-
----
-
-## Future Improvements
-
-* Add machine learning-based customer segmentation
-* Deploy dashboard on cloud platform
-* Integrate real-time data pipeline
-* Add predictive sales analysis
-* Create web-based analytics dashboard
-
----
-
-## Contribution Guidelines
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a new feature branch
-3. Commit your changes
-4. Push to your branch
-5. Create a Pull Request
-
----
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## .gitignore
-
-```bash
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# Virtual Environment
-venv/
-env/
-
-# Power BI Temp Files
-*.tmp
-
-# VS Code
-.vscode/
-
-# OS Files
-.DS_Store
-Thumbs.db
-```
-
----
-
-## requirements.txt
-
-```bash
-pandas
-numpy
-matplotlib
-seaborn
-jupyter
-plotly
-scikit-learn
-```
+**Data Cleaning | Exploratory Data Analysis | Python | Pandas | NumPy | SQL | Power BI | Data Visualization | Business Analysis | Customer Behaviour Analysis**
 
 ---
 
 ## Author
 
-A professional Data Analytics portfolio project built for learning, resume building, and recruiter showcase.
+**Ruchika Sinha**
+
+GitHub:
+https://github.com/RuchikaSinha26
