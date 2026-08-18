@@ -128,22 +128,6 @@ using Microsoft Power BI Desktop.
 
 ---
 
-## Screenshots
-
-### Dashboard Overview
-
-(Add screenshot here)
-
-### Sales Insights
-
-(Add screenshot here)
-
-### Customer Analysis
-
-(Add screenshot here)
-
----
-
 ## Key Insights
 
 * Identified high-performing product categories
