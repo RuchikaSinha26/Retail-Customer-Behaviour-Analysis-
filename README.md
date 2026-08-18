@@ -53,11 +53,6 @@ Retail-Customer-Behaviour-Analysis/
 ├── powerbi/
 │   └── PROJECTTTTTT.pbix
 │
-├── screenshots/
-│   ├── dashboard-overview.png
-│   ├── sales-analysis.png
-│   └── customer-insights.png
-│
 ├── src/
 │   ├── data_cleaning.py
 │   ├── analysis.py
